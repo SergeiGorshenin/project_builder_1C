@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.19">
+	<Item id="740123d8-7201-40e1-b1af-09583da0cc77">
+		<Name>Команды1С</Name>
+		<Code>001</Code>
+		<Description>Команды 1С</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="a4496b05-afcd-45db-afb5-dde3385a6dce">
+				<Name>ВыгрузитьКонфигурациюВФайлы</Name>
+				<Code>018</Code>
+				<Description>Выгрузить конфигурацию в файлы</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="7dd5fdb5-0adc-4df6-9ae6-5e6c1c5a8c0b">
+				<Name>ВыгрузитьКонфигурациюРасширенияВФайлы</Name>
+				<Code>034</Code>
+				<Description>Выгрузить конфигурацию расширения в файлы</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="cc4f3c18-1dec-428e-a27b-659bc487a2de">
+				<Name>ВыгрузкаКонфигурацииCF</Name>
+				<Code>053</Code>
+				<Description>Выгрузка конфигурации CF</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f18114e0-3822-4d32-973d-120d9568e2d1">
+				<Name>ВыгрузкаКонфигурацииРасширениCFE</Name>
+				<Code>054</Code>
+				<Description>Выгрузка конфигурации расширени CFE</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2d06697d-ec85-4f6f-ae77-6c9bd42f8e08">
+				<Name>ЗагрузкаКонфигурацииИзФайлов</Name>
+				<Code>045</Code>
+				<Description>Загрузка конфигурации из файлов</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f0d8ba0b-c85f-406f-b3f4-628ffc004470">
+				<Name>ЗагрузкаКонфигурацииРасширенияИзФайлов</Name>
+				<Code>046</Code>
+				<Description>Загрузка конфигурации расгирения из файлов</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3e254ceb-6360-4790-9e31-6395a71cdad9">
+				<Name>ЗапрещатьОтображениеДиалогов</Name>
+				<Code>019</Code>
+				<Description>Запрещать отображение диалогов</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="144cac8e-d427-4e01-889d-4e1a0bcef868">
+				<Name>ИмяРасширения</Name>
+				<Code>026</Code>
+				<Description>Имя расширения</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="6c2e234c-d4ec-43ff-92d8-9e01b9c81993">
+				<Name>КаталогБазыСборки</Name>
+				<Code>047</Code>
+				<Description>Каталог базы сборки</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="39e24653-a57e-49d9-92bb-ef2df413d699">
+				<Name>Логирование</Name>
+				<Code>020</Code>
+				<Description>Логирование</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f3ba844d-e6b3-40f8-84ba-205e21ef3265">
+				<Name>ОбновитьКонфигурациюИзХранилища</Name>
+				<Code>021</Code>
+				<Description>Обновить конфигурацию из хранилища</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="12e0d7d6-aa84-4477-968d-b4705868ff85">
+				<Name>ОбновлениеКонфигурацииБазыДанных</Name>
+				<Code>022</Code>
+				<Description>Обновление конфигурации базы данных</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0eb8e886-ff02-4604-9f2b-4f797746c918">
+				<Name>ОчиститьКаталогСборки</Name>
+				<Code>057</Code>
+				<Description>Очистить каталог сборки</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="033825c0-dae6-442e-811a-61607db817c0">
+				<Name>ПодключениеККлиентСервернойБазе</Name>
+				<Code>016</Code>
+				<Description>Подключение к клиент-серверной базе</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="71649a63-43ca-42e6-a133-1ed0d286ab00">
+				<Name>ПодключениеККлиентСервернойБазеDEV</Name>
+				<Code>036</Code>
+				<Description>Подключение к клиент-серверной базе DEV</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="4399b4d5-ac2a-4376-9fec-0a1f440842cf">
+				<Name>ПодключениеКФайловойБазе</Name>
+				<Code>017</Code>
+				<Description>Подключение к файловой базе</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0725c450-2799-4f66-b6a7-52b9a2026650">
+				<Name>ПодключениеКФайловойБазеDEV</Name>
+				<Code>037</Code>
+				<Description>Подключение к файловой базе DEV</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="59132477-35d0-4da7-a881-6544d0e9e8b4">
+				<Name>ПодключениеКХранилищу</Name>
+				<Code>023</Code>
+				<Description>Подключение к хранилищу</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c01fd221-7612-4ead-bfe8-a98281e679f9">
+				<Name>ПодключениеКХранилищуDEV</Name>
+				<Code>038</Code>
+				<Description>Подключение к хранилищу DEV</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="4356b2f6-8253-4460-a37c-361aa4bacd8d">
+				<Name>ПодключениеКХранилищуРасширения</Name>
+				<Code>027</Code>
+				<Description>Подключение к хранилищу расширения</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="671b9f33-1e74-43cc-b4cb-a81d9b40f7c9">
+				<Name>ПодключениеКХранилищуРасширенияDEV</Name>
+				<Code>039</Code>
+				<Description>Подключение к хранилищу расширения DEV</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="cfd04a88-66bc-40ff-bea3-6291a7cb4a5b">
+				<Name>РежимЗапускаКонфигуратор</Name>
+				<Code>015</Code>
+				<Description>Режим запуска "Конфигуратор"</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="16f7f71f-459a-4d88-8cbf-f2db42759b35">
+				<Name>СозданиеИнформационнойБазы</Name>
+				<Code>044</Code>
+				<Description>Создание информационной базы</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="6fa2a310-5099-42ca-93ec-80325cecf2e1">
+		<Name>КомандыGIT</Name>
+		<Code>002</Code>
+		<Description>Команды GIT</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="bc59ef9a-29bf-41ce-9666-75a7ec48d6aa">
+				<Name>Add</Name>
+				<Code>007</Code>
+				<Description>add .</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="6e7237a0-95e3-45b4-b512-f3db3a3976da">
+				<Name>BranchDEV</Name>
+				<Code>043</Code>
+				<Description>branch dev</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="2325d840-a363-4e20-810e-2eb4da0b9827">
+				<Name>CheckoutDEV</Name>
+				<Code>042</Code>
+				<Description>checkout dev</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="195b6e07-b69b-4eb6-a961-97a5932d3065">
+				<Name>CheckoutMaster</Name>
+				<Code>012</Code>
+				<Description>checkout master</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="11de29bc-94fc-40ca-82dc-b6a3407a5602">
+				<Name>CommitAM</Name>
+				<Code>010</Code>
+				<Description>commit -am "#$комментарий$#"</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1716e144-c804-46d0-8880-86d8bda3e8c4">
+				<Name>Commit</Name>
+				<Code>009</Code>
+				<Description>commit -m "#$комментарий$#"</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="e7b07ef6-b225-4c83-8aea-f68ffe05f64b">
+				<Name>CoreAutocrlfTrue</Name>
+				<Code>006</Code>
+				<Description>core.autocrlf true</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a93d62df-964b-4857-8607-2f03e0ba147b">
+				<Name>CoreQuotepathFalse</Name>
+				<Code>005</Code>
+				<Description>core.quotepath false</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="4defeb94-abd9-43c2-b548-e376fbfd9757">
+				<Name>Init</Name>
+				<Code>029</Code>
+				<Description>init</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1eb34873-1f74-4658-8816-bef3208f38cb">
+				<Name>MergeMaster</Name>
+				<Code>013</Code>
+				<Description>merge master</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="dc39416a-9241-4364-a445-a05c639734ce">
+				<Name>MergeToolKdiff3</Name>
+				<Code>031</Code>
+				<Description>merge.tool kdiff3</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a8c2fbd2-2e5c-4e58-b6c7-1a5451f24ca9">
+				<Name>Mergetool</Name>
+				<Code>014</Code>
+				<Description>mergetool #$имя_файла_конфликта$#</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="eeafc792-8851-4850-92c6-69a7b195412c">
+				<Name>MergetoolKdiff3KeepBackup</Name>
+				<Code>033</Code>
+				<Description>mergetool.kdiff3.keepBackup</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="c67d7210-ac8a-4ef5-8d90-ce2d121ff0dd">
+				<Name>MergetoolKdiff3Path</Name>
+				<Code>032</Code>
+				<Description>mergetool.kdiff3.path</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3db43225-1c77-4688-994d-84d95d6c4ea8">
+				<Name>ResetHard</Name>
+				<Code>011</Code>
+				<Description>reset --hard</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="9e26e154-4e54-44f1-b6c7-6300699f5288">
+				<Name>DelLocRep</Name>
+				<Code>035</Code>
+				<Description>rm -rf .git</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="547f3a65-798a-4cc1-840d-fbf19f4ca716">
+				<Name>Status</Name>
+				<Code>008</Code>
+				<Description>status</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="b57d0b21-642d-4435-b1d3-68ab7e6188a9">
+		<Name>НаборыКоманд</Name>
+		<Code>003</Code>
+		<Description>Наборы команд</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="49b7e2d8-c2b7-48d8-aae7-504effa7f13f">
+				<Name>Команда1С_ВыгрузитьКонфигурациюВФайлы</Name>
+				<Code>025</Code>
+				<Description>Команда 1С "Выгрузить конфигурацию в файлы"</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f538c396-c7fa-475a-9b7f-ccefb9749504">
+				<Name>Команда1С_ВыгрузитьКонфигурациюВФайлыDEV</Name>
+				<Code>040</Code>
+				<Description>Команда 1С "Выгрузить конфигурацию в файлы" DEV</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="16297514-f874-47c7-8ceb-7abb34aa9627">
+				<Name>Команда1С_ВыгрузитьКонфигурациюРасширенияВФайлы</Name>
+				<Code>028</Code>
+				<Description>Команда 1С "Выгрузить конфигурацию расширения в файлы"</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="46139b58-7c89-4168-8442-b1912488c7dd">
+				<Name>Команда1С_ВыгрузитьКонфигурациюРасширенияВФайлыDEV</Name>
+				<Code>041</Code>
+				<Description>Команда 1С "Выгрузить конфигурацию расширения в файлы" DEV</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1db72ba2-a0cf-4287-b32b-92cb25398b08">
+				<Name>Команда1С_ВыгрузкаКонфигурацииCF</Name>
+				<Code>055</Code>
+				<Description>Команда 1С "Выгрузка конфигурации CF"</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="85c7f401-8fad-43e6-886d-bf9a5dd91e7a">
+				<Name>Команда1С_ВыгрузкаКонфигурацииРасширениCFE</Name>
+				<Code>056</Code>
+				<Description>Команда 1С "Выгрузка конфигурации расширени CFE"</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0de9d05d-f002-4cd5-bf5d-484697bbbf81">
+				<Name>Команда1С_ЗагрузитьКонфигурациюCF</Name>
+				<Code>048</Code>
+				<Description>Команда 1С "Загрузить конфигурацию CF"</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="d5bc5f2a-473e-4b09-92b6-7d09bbca5df5">
+				<Name>Команда1С_ЗагрузитьКонфигурациюРасширенияCFE</Name>
+				<Code>049</Code>
+				<Description>Команда 1С "Загрузить конфигурацию расширения CFE"</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="27941f6e-ff1b-4fcf-bb2a-84e510d2b72e">
+				<Name>Команда1С_ОбновлениеИБИзХранилищаРасширения</Name>
+				<Code>004</Code>
+				<Description>Команда 1С "Обновление ИБ из хранилища расширения"</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a0a378d6-57c7-49b7-87b7-cf77a5d15bc2">
+				<Name>Команда1С_ОбновлениеИБИзХранилища</Name>
+				<Code>024</Code>
+				<Description>Команда 1С "Обновление ИБ из хранилища"</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="59de1d2b-4421-48c2-8afd-a0dd2c6deefd">
+				<Name>Команда1С_ОбновлениеИБРасширения</Name>
+				<Code>052</Code>
+				<Description>Команда 1С "Обновление ИБ расширения"</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a2597f58-f5c9-414a-a7e7-1980a4d7230e">
+				<Name>Команда1С_ОбновлениеИБ</Name>
+				<Code>051</Code>
+				<Description>Команда 1С "Обновление ИБ"</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a5ded5dc-4291-41c2-a989-16c67fed0bb2">
+				<Name>Команда1С_ПодготовитьКаталогСборки</Name>
+				<Code>050</Code>
+				<Description>Команда 1С "Подготовить каталог сборки"</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

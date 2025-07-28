@@ -1,0 +1,757 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="79">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="80"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаНаименованиеКод" id="71">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа наименование код</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа наименование код</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНаименованиеКодРасширеннаяПодсказка" id="72"/>
+					<ChildItems>
+						<InputField name="Наименование" id="4">
+							<DataPath>Объект.Description</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="Код" id="1">
+							<DataPath>Объект.Code</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="КаталогСборки" id="7">
+					<DataPath>Объект.КаталогСборки</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ChoiceButton>true</ChoiceButton>
+					<ClearButton>true</ClearButton>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КаталогСборкиКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="КаталогСборкиРасширеннаяПодсказка" id="9"/>
+					<Events>
+						<Event name="StartChoice">КаталогСборкиНачалоВыбора</Event>
+					</Events>
+				</InputField>
+				<InputField name="КаталогЛогФайлов" id="10">
+					<DataPath>Объект.КаталогЛогФайлов</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ChoiceButton>true</ChoiceButton>
+					<ClearButton>true</ClearButton>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КаталогЛогФайловКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="КаталогЛогФайловРасширеннаяПодсказка" id="12"/>
+					<Events>
+						<Event name="StartChoice">КаталогЛогФайловНачалоВыбора</Event>
+					</Events>
+				</InputField>
+				<InputField name="ИнструментРазрешенияКонфликтов" id="98">
+					<DataPath>Объект.ИнструментРазрешенияКонфликтов</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Конфликты</v8:content>
+						</v8:item>
+					</Title>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<InputHint>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Инструмент разрешения конфликтов</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="ИнструментРазрешенияКонфликтовКонтекстноеМеню" id="99"/>
+					<ExtendedTooltip name="ИнструментРазрешенияКонфликтовРасширеннаяПодсказка" id="100"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="ГруппаВетки" id="101">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа ветки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа ветки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаВеткиРасширеннаяПодсказка" id="102"/>
+			<ChildItems>
+				<Page name="ГруппаMaster" id="103">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ветка "Master"</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ветка "Master"</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаMasterРасширеннаяПодсказка" id="104"/>
+					<ChildItems>
+						<Pages name="СтраницыГруппыMaster" id="81">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы группы master</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы группы master</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="СтраницыГруппыMasterРасширеннаяПодсказка" id="82"/>
+							<ChildItems>
+								<Page name="СтраницаОсновныеНастройкиMaster" id="83">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Основные настройки</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Основные настройки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаОсновныеНастройкиMasterРасширеннаяПодсказка" id="84"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаПодключениеГоризонталь" id="87">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа подключение горизонталь</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа подключение горизонталь</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>AlwaysHorizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаПодключениеГоризонтальРасширеннаяПодсказка" id="88"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаСпособПодключениеКИБ" id="73">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Способ подключение к ИБ</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Способ подключение к ИБ</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<Representation>StrongSeparation</Representation>
+													<ExtendedTooltip name="ГруппаСпособПодключениеКИБРасширеннаяПодсказка" id="74"/>
+													<ChildItems>
+														<InputField name="СпособПодключения" id="13">
+															<DataPath>Объект.СпособПодключения</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="СпособПодключенияКонтекстноеМеню" id="14"/>
+															<ExtendedTooltip name="СпособПодключенияРасширеннаяПодсказка" id="15"/>
+															<Events>
+																<Event name="OnChange">СпособПодключенияПриИзменении</Event>
+															</Events>
+														</InputField>
+														<InputField name="КаталогИнформационнойБазы" id="16">
+															<DataPath>Объект.КаталогИнформационнойБазы</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<ChoiceButton>true</ChoiceButton>
+															<ClearButton>true</ClearButton>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="КаталогИнформационнойБазыКонтекстноеМеню" id="17"/>
+															<ExtendedTooltip name="КаталогИнформационнойБазыРасширеннаяПодсказка" id="18"/>
+															<Events>
+																<Event name="StartChoice">КаталогИнформационнойБазыНачалоВыбора</Event>
+															</Events>
+														</InputField>
+														<InputField name="ИмяСервера" id="19">
+															<DataPath>Объект.ИмяСервера</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="ИмяСервераКонтекстноеМеню" id="20"/>
+															<ExtendedTooltip name="ИмяСервераРасширеннаяПодсказка" id="21"/>
+														</InputField>
+														<InputField name="ИмяБазы" id="22">
+															<DataPath>Объект.ИмяБазы</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="ИмяБазыКонтекстноеМеню" id="23"/>
+															<ExtendedTooltip name="ИмяБазыРасширеннаяПодсказка" id="24"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаНастройкаАутентификации" id="75">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Настройка аутентификации</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Настройка аутентификации</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<Representation>StrongSeparation</Representation>
+													<ExtendedTooltip name="ГруппаНастройкаАутентификацииРасширеннаяПодсказка" id="76"/>
+													<ChildItems>
+														<InputField name="ИмяПользователя" id="25">
+															<DataPath>Объект.ИмяПользователя</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="ИмяПользователяКонтекстноеМеню" id="26"/>
+															<ExtendedTooltip name="ИмяПользователяРасширеннаяПодсказка" id="27"/>
+														</InputField>
+														<InputField name="ПарольПользователя" id="28">
+															<DataPath>Объект.ПарольПользователя</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<PasswordMode>true</PasswordMode>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="ПарольПользователяКонтекстноеМеню" id="29"/>
+															<ExtendedTooltip name="ПарольПользователяРасширеннаяПодсказка" id="30"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаРаботаСХранилищем" id="77">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Работа с хранилищем</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Настройка аутентификации</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Representation>StrongSeparation</Representation>
+											<ExtendedTooltip name="ГруппаРаботаСХранилищемРасширеннаяПодсказка" id="78"/>
+											<ChildItems>
+												<InputField name="КаталогХранилища" id="34">
+													<DataPath>Объект.КаталогХранилища</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<ChoiceButton>true</ChoiceButton>
+													<ClearButton>true</ClearButton>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="КаталогХранилищаКонтекстноеМеню" id="35"/>
+													<ExtendedTooltip name="КаталогХранилищаРасширеннаяПодсказка" id="36"/>
+													<Events>
+														<Event name="StartChoice">КаталогХранилищаНачалоВыбора</Event>
+													</Events>
+												</InputField>
+												<InputField name="ИмяПользователяХранилища" id="37">
+													<DataPath>Объект.ИмяПользователяХранилища</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ИмяПользователяХранилищаКонтекстноеМеню" id="38"/>
+													<ExtendedTooltip name="ИмяПользователяХранилищаРасширеннаяПодсказка" id="39"/>
+												</InputField>
+												<InputField name="ПарольПользователяХранилища" id="40">
+													<DataPath>Объект.ПарольПользователяХранилища</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<PasswordMode>true</PasswordMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПарольПользователяХранилищаКонтекстноеМеню" id="41"/>
+													<ExtendedTooltip name="ПарольПользователяХранилищаРасширеннаяПодсказка" id="42"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаРасширенияMaster" id="85">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Расширения</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Расширения</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаРасширенияMasterРасширеннаяПодсказка" id="86"/>
+									<ChildItems>
+										<Table name="Расширения" id="43">
+											<Representation>List</Representation>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>Объект.Расширения</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="РасширенияКонтекстноеМеню" id="44"/>
+											<AutoCommandBar name="РасширенияКоманднаяПанель" id="45"/>
+											<ExtendedTooltip name="РасширенияРасширеннаяПодсказка" id="46"/>
+											<SearchStringAddition name="РасширенияСтрокаПоиска" id="47">
+												<AdditionSource>
+													<Item>Расширения</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="РасширенияСтрокаПоискаКонтекстноеМеню" id="48"/>
+												<ExtendedTooltip name="РасширенияСтрокаПоискаРасширеннаяПодсказка" id="49"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="РасширенияСостояниеПросмотра" id="50">
+												<AdditionSource>
+													<Item>Расширения</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="РасширенияСостояниеПросмотраКонтекстноеМеню" id="51"/>
+												<ExtendedTooltip name="РасширенияСостояниеПросмотраРасширеннаяПодсказка" id="52"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="РасширенияУправлениеПоиском" id="53">
+												<AdditionSource>
+													<Item>Расширения</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="РасширенияУправлениеПоискомКонтекстноеМеню" id="54"/>
+												<ExtendedTooltip name="РасширенияУправлениеПоискомРасширеннаяПодсказка" id="55"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="РасширенияНомерСтроки" id="56">
+													<DataPath>Объект.Расширения.LineNumber</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="РасширенияНомерСтрокиКонтекстноеМеню" id="57"/>
+													<ExtendedTooltip name="РасширенияНомерСтрокиРасширеннаяПодсказка" id="58"/>
+												</LabelField>
+												<InputField name="РасширенияИмяРасширения" id="59">
+													<DataPath>Объект.Расширения.ИмяРасширения</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасширенияИмяРасширенияКонтекстноеМеню" id="60"/>
+													<ExtendedTooltip name="РасширенияИмяРасширенияРасширеннаяПодсказка" id="61"/>
+												</InputField>
+												<InputField name="РасширенияКаталогХранилища" id="62">
+													<DataPath>Объект.Расширения.КаталогХранилища</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ChoiceButton>true</ChoiceButton>
+													<ClearButton>true</ClearButton>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасширенияКаталогХранилищаКонтекстноеМеню" id="63"/>
+													<ExtendedTooltip name="РасширенияКаталогХранилищаРасширеннаяПодсказка" id="64"/>
+													<Events>
+														<Event name="StartChoice">РасширенияКаталогХранилищаНачалоВыбора</Event>
+													</Events>
+												</InputField>
+												<InputField name="РасширенияИмяПользователяХранилища" id="65">
+													<DataPath>Объект.Расширения.ИмяПользователяХранилища</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасширенияИмяПользователяХранилищаКонтекстноеМеню" id="66"/>
+													<ExtendedTooltip name="РасширенияИмяПользователяХранилищаРасширеннаяПодсказка" id="67"/>
+												</InputField>
+												<InputField name="РасширенияПарольПользователяХранилища" id="68">
+													<DataPath>Объект.Расширения.ПарольПользователяХранилища</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<PasswordMode>true</PasswordMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасширенияПарольПользователяХранилищаКонтекстноеМеню" id="69"/>
+													<ExtendedTooltip name="РасширенияПарольПользователяХранилищаРасширеннаяПодсказка" id="70"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаDEV" id="105">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ветка "DEV"</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ветка "DEV"</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаDEVРасширеннаяПодсказка" id="106"/>
+					<ChildItems>
+						<Pages name="СтраницыГруппыDEV" id="107">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы группы dev</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страницы группы dev</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="СтраницыГруппыDEVРасширеннаяПодсказка" id="108"/>
+							<ChildItems>
+								<Page name="СтраницаОсновныеНастройкиDEV" id="109">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Основные настройки</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Основные настройки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаОсновныеНастройкиDEVРасширеннаяПодсказка" id="110"/>
+									<ChildItems>
+										<UsualGroup name="ГруппаПодключениеГоризонтальDEV" id="111">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа подключение горизонталь</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа подключение горизонталь</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>AlwaysHorizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаПодключениеГоризонтальDEVРасширеннаяПодсказка" id="112"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаСпособПодключениеКИБDEV" id="113">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Способ подключение к ИБ</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Способ подключение к ИБ</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<Representation>StrongSeparation</Representation>
+													<ExtendedTooltip name="ГруппаСпособПодключениеКИБDEVРасширеннаяПодсказка" id="114"/>
+													<ChildItems>
+														<InputField name="СпособПодключенияDEV" id="115">
+															<DataPath>Объект.СпособПодключенияDEV</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="СпособПодключенияDEVКонтекстноеМеню" id="116"/>
+															<ExtendedTooltip name="СпособПодключенияDEVРасширеннаяПодсказка" id="117"/>
+															<Events>
+																<Event name="OnChange">СпособПодключенияПриИзменении</Event>
+															</Events>
+														</InputField>
+														<InputField name="КаталогИнформационнойБазыDEV" id="118">
+															<DataPath>Объект.КаталогИнформационнойБазыDEV</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<ChoiceButton>true</ChoiceButton>
+															<ClearButton>true</ClearButton>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="КаталогИнформационнойБазыDEVКонтекстноеМеню" id="119"/>
+															<ExtendedTooltip name="КаталогИнформационнойБазыDEVРасширеннаяПодсказка" id="120"/>
+															<Events>
+																<Event name="StartChoice">КаталогИнформационнойБазыDEVНачалоВыбора</Event>
+															</Events>
+														</InputField>
+														<InputField name="ИмяСервераDEV" id="121">
+															<DataPath>Объект.ИмяСервераDEV</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="ИмяСервераDEVКонтекстноеМеню" id="122"/>
+															<ExtendedTooltip name="ИмяСервераDEVРасширеннаяПодсказка" id="123"/>
+														</InputField>
+														<InputField name="ИмяБазыDEV" id="124">
+															<DataPath>Объект.ИмяБазыDEV</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="ИмяБазыDEVКонтекстноеМеню" id="125"/>
+															<ExtendedTooltip name="ИмяБазыDEVРасширеннаяПодсказка" id="126"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+												<UsualGroup name="ГруппаНастройкаАутентификацииDEV" id="127">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Настройка аутентификации</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Настройка аутентификации</v8:content>
+														</v8:item>
+													</ToolTip>
+													<Group>Vertical</Group>
+													<Representation>StrongSeparation</Representation>
+													<ExtendedTooltip name="ГруппаНастройкаАутентификацииDEVРасширеннаяПодсказка" id="128"/>
+													<ChildItems>
+														<InputField name="ИмяПользователяDEV" id="129">
+															<DataPath>Объект.ИмяПользователяDEV</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="ИмяПользователяDEVКонтекстноеМеню" id="130"/>
+															<ExtendedTooltip name="ИмяПользователяDEVРасширеннаяПодсказка" id="131"/>
+														</InputField>
+														<InputField name="ПарольПользователяDEV" id="132">
+															<DataPath>Объект.ПарольПользователяDEV</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<PasswordMode>true</PasswordMode>
+															<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+															<ContextMenu name="ПарольПользователяDEVКонтекстноеМеню" id="133"/>
+															<ExtendedTooltip name="ПарольПользователяDEVРасширеннаяПодсказка" id="134"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаРаботаСХранилищемDEV" id="135">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Работа с хранилищем</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Настройка аутентификации</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Vertical</Group>
+											<Representation>StrongSeparation</Representation>
+											<ExtendedTooltip name="ГруппаРаботаСХранилищемDEVРасширеннаяПодсказка" id="136"/>
+											<ChildItems>
+												<InputField name="КаталогХранилищаDEV" id="137">
+													<DataPath>Объект.КаталогХранилищаDEV</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<ChoiceButton>true</ChoiceButton>
+													<ClearButton>true</ClearButton>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="КаталогХранилищаDEVКонтекстноеМеню" id="138"/>
+													<ExtendedTooltip name="КаталогХранилищаDEVРасширеннаяПодсказка" id="139"/>
+													<Events>
+														<Event name="StartChoice">КаталогХранилищаDEVНачалоВыбора</Event>
+													</Events>
+												</InputField>
+												<InputField name="ИмяПользователяХранилищаDEV" id="140">
+													<DataPath>Объект.ИмяПользователяХранилищаDEV</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ИмяПользователяХранилищаDEVКонтекстноеМеню" id="141"/>
+													<ExtendedTooltip name="ИмяПользователяХранилищаDEVРасширеннаяПодсказка" id="142"/>
+												</InputField>
+												<InputField name="ПарольПользователяХранилищаDEV" id="143">
+													<DataPath>Объект.ПарольПользователяХранилищаDEV</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<PasswordMode>true</PasswordMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПарольПользователяХранилищаDEVКонтекстноеМеню" id="144"/>
+													<ExtendedTooltip name="ПарольПользователяХранилищаDEVРасширеннаяПодсказка" id="145"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</Page>
+								<Page name="СтраницаРасширенияDEV" id="146">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Расширения</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Расширения</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="СтраницаРасширенияDEVРасширеннаяПодсказка" id="147"/>
+									<ChildItems>
+										<Table name="РасширенияDEV" id="148">
+											<Representation>List</Representation>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>Объект.РасширенияDEV</DataPath>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="РасширенияDEVКонтекстноеМеню" id="149"/>
+											<AutoCommandBar name="РасширенияDEVКоманднаяПанель" id="150"/>
+											<ExtendedTooltip name="РасширенияDEVРасширеннаяПодсказка" id="151"/>
+											<SearchStringAddition name="РасширенияDEVСтрокаПоиска" id="152">
+												<AdditionSource>
+													<Item>РасширенияDEV</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="РасширенияDEVСтрокаПоискаКонтекстноеМеню" id="153"/>
+												<ExtendedTooltip name="РасширенияDEVСтрокаПоискаРасширеннаяПодсказка" id="154"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="РасширенияDEVСостояниеПросмотра" id="155">
+												<AdditionSource>
+													<Item>РасширенияDEV</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="РасширенияDEVСостояниеПросмотраКонтекстноеМеню" id="156"/>
+												<ExtendedTooltip name="РасширенияDEVСостояниеПросмотраРасширеннаяПодсказка" id="157"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="РасширенияDEVУправлениеПоиском" id="158">
+												<AdditionSource>
+													<Item>РасширенияDEV</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="РасширенияDEVУправлениеПоискомКонтекстноеМеню" id="159"/>
+												<ExtendedTooltip name="РасширенияDEVУправлениеПоискомРасширеннаяПодсказка" id="160"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="РасширенияDEVНомерСтроки" id="161">
+													<DataPath>Объект.РасширенияDEV.LineNumber</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="РасширенияDEVНомерСтрокиКонтекстноеМеню" id="162"/>
+													<ExtendedTooltip name="РасширенияDEVНомерСтрокиРасширеннаяПодсказка" id="163"/>
+												</LabelField>
+												<InputField name="РасширенияDEVИмяРасширения" id="164">
+													<DataPath>Объект.РасширенияDEV.ИмяРасширения</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасширенияDEVИмяРасширенияКонтекстноеМеню" id="165"/>
+													<ExtendedTooltip name="РасширенияDEVИмяРасширенияРасширеннаяПодсказка" id="166"/>
+												</InputField>
+												<InputField name="РасширенияDEVКаталогХранилища" id="167">
+													<DataPath>Объект.РасширенияDEV.КаталогХранилища</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасширенияDEVКаталогХранилищаКонтекстноеМеню" id="168"/>
+													<ExtendedTooltip name="РасширенияDEVКаталогХранилищаРасширеннаяПодсказка" id="169"/>
+													<Events>
+														<Event name="StartChoice">РасширенияDEVКаталогХранилищаНачалоВыбора</Event>
+													</Events>
+												</InputField>
+												<InputField name="РасширенияDEVИмяПользователяХранилища" id="170">
+													<DataPath>Объект.РасширенияDEV.ИмяПользователяХранилища</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасширенияDEVИмяПользователяХранилищаКонтекстноеМеню" id="171"/>
+													<ExtendedTooltip name="РасширенияDEVИмяПользователяХранилищаРасширеннаяПодсказка" id="172"/>
+												</InputField>
+												<InputField name="РасширенияDEVПарольПользователяХранилища" id="173">
+													<DataPath>Объект.РасширенияDEV.ПарольПользователяХранилища</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="РасширенияDEVПарольПользователяХранилищаКонтекстноеМеню" id="174"/>
+													<ExtendedTooltip name="РасширенияDEVПарольПользователяХранилищаРасширеннаяПодсказка" id="175"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<InputField name="Комментарий" id="89">
+			<DataPath>Объект.Комментарий</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="90"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="91"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.сп_Конфигурации</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

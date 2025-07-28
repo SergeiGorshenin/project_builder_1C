@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.19">
+	<Item id="1de04609-7942-4a2f-80f9-e1203f76b233">
+		<Name>ДемоКонфигурация</Name>
+		<Code>001</Code>
+		<Description>Конфигурация (Демо)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

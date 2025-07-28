@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
+	<ConfigVersions>
+		<Metadata name="Catalog.сп_ИнструментыРазрешенияКонфликтов" id="729f3625-b477-4f71-8304-2ff36c5b81ea" configVersion="2683e6ea2fb532320e470ef3b2b4493b11608b4d">
+			<Metadata name="Catalog.сп_ИнструментыРазрешенияКонфликтов.Attribute.Комментарий" id="52aca392-cce7-4f53-8328-f45b9286a111"/>
+			<Metadata name="Catalog.сп_ИнструментыРазрешенияКонфликтов.Attribute.Программа" id="ae9a06c3-3538-46e4-9f49-de44ebfc1a8d"/>
+		</Metadata>
+		<Metadata name="Catalog.сп_ИнструментыРазрешенияКонфликтов.ManagerModule" id="729f3625-b477-4f71-8304-2ff36c5b81ea.3" configVersion="69184da5480b3e9a460d55919d0aaad0670dfd8b"/>
+		<Metadata name="Catalog.сп_ИнструментыРазрешенияКонфликтов.Predefined" id="729f3625-b477-4f71-8304-2ff36c5b81ea.1c" configVersion="fa483777c79717ac5366c55192cd58c9af796eb7"/>
+		<Metadata name="Catalog.сп_Команды" id="aeb10015-68e4-4a8a-9c9d-673c5a812e9b" configVersion="9f8eee95b14fb50f4c4af1212ef71a7e0fea1d3b">
+			<Metadata name="Catalog.сп_Команды.Attribute.Комментарий" id="19f29211-6516-456e-a7ce-2036954de4d8"/>
+			<Metadata name="Catalog.сп_Команды.TabularSection.НаборКоманд.Attribute.Команда" id="2cf32d82-4002-4a27-8ae3-6e2b9df97f9d"/>
+			<Metadata name="Catalog.сп_Команды.Attribute.Команда" id="3a35b599-2da0-4f0f-894e-c16943f6b7ad"/>
+			<Metadata name="Catalog.сп_Команды.TabularSection.НаборКоманд" id="5a83a2b4-f487-481b-9940-8f537a38975b"/>
+		</Metadata>
+		<Metadata name="Catalog.сп_Команды.Form.ФормаВыбора" id="8c03a8ab-fb3a-42d6-879d-52cbb1c336fe" configVersion="d9ad8ac11c77acfffe541a73673f70c4187872e7"/>
+		<Metadata name="Catalog.сп_Команды.Form.ФормаВыбора.Form" id="8c03a8ab-fb3a-42d6-879d-52cbb1c336fe.0" configVersion="ede18acbc2e823bf02383b3078835f9329b3aa24"/>
+		<Metadata name="Catalog.сп_Команды.Form.ФормаСписка" id="e02b52fe-cc5d-42e1-9c40-9df6d5cf4cb6" configVersion="75aa660191865232fcee935a32be68981c848427"/>
+		<Metadata name="Catalog.сп_Команды.Form.ФормаСписка.Form" id="e02b52fe-cc5d-42e1-9c40-9df6d5cf4cb6.0" configVersion="a192091385f6f2197a1c1795dc9a3692be5aeac2"/>
+		<Metadata name="Catalog.сп_Команды.Form.ФормаЭлемента" id="3435a90b-7c19-4506-adbe-bbebc1219f83" configVersion="16ba6c32a939df2aa08c35f33f2cae9702b0dd96"/>
+		<Metadata name="Catalog.сп_Команды.Form.ФормаЭлемента.Form" id="3435a90b-7c19-4506-adbe-bbebc1219f83.0" configVersion="b01dfa4ee676e9c447cf5fb79ba30ec7934c76aa"/>
+		<Metadata name="Catalog.сп_Команды.ManagerModule" id="aeb10015-68e4-4a8a-9c9d-673c5a812e9b.3" configVersion="8197c71525f48d8cc2e532cbb4ce569d0a67cde0"/>
+		<Metadata name="Catalog.сп_Команды.Predefined" id="aeb10015-68e4-4a8a-9c9d-673c5a812e9b.1c" configVersion="fc9c32c21733734feeb747a947b5001b5cd53626"/>
+		<Metadata name="Catalog.сп_Конфигурации" id="e07771c0-9098-4396-a44b-a7aaa2c09dcb" configVersion="f043db53e505297eed75d2bcec7291bdbe4fec6e">
+			<Metadata name="Catalog.сп_Конфигурации.TabularSection.РасширенияDEV" id="0102cb24-6218-4074-a2f1-6d7cdbf278ec"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.ИмяБазыDEV" id="05625b9d-6d8d-4f4d-b33a-2c793aa23cf0"/>
+			<Metadata name="Catalog.сп_Конфигурации.TabularSection.Расширения.Attribute.ПарольПользователяХранилища" id="0c6e11e4-7d3c-4dbe-8011-ac05738153e3"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.СпособПодключенияDEV" id="15f91783-dbe7-491e-93db-a9ddc62add3c"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.КаталогИнформационнойБазы" id="1b6fa8b3-9854-4663-90a6-0786c41147e7"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.ИмяСервера" id="1fe936ac-e855-4fe8-8991-aec658e300cd"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.ИмяПользователя" id="249009c7-0c4e-420c-869d-b70328b6b5e9"/>
+			<Metadata name="Catalog.сп_Конфигурации.TabularSection.Расширения.Attribute.КаталогХранилища" id="292141e7-0632-4ea0-bb33-953ef8fbfe6d"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.КаталогСборки" id="2c1b8432-6bd1-43ae-8f7a-8a794d250f9a"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.ПарольПользователяХранилища" id="2fe4b5b4-e3cb-4da4-ae37-69ec3f08bd37"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.ИмяБазы" id="3694a8c6-b4a2-4209-b2a9-359f9f17b059"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.КаталогХранилища" id="379ece27-ba88-49e0-9b2e-5d6c0966b126"/>
+			<Metadata name="Catalog.сп_Конфигурации.TabularSection.РасширенияDEV.Attribute.ПарольПользователяХранилища" id="49c3ffaa-72d7-4c17-bb93-488c9b1fbc9b"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.КаталогХранилищаDEV" id="58be989d-8477-4231-8fad-14f7d69b90dd"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.ИмяСервераDEV" id="6e982bb4-bed9-4b25-90ef-45662db66917"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.ИнструментРазрешенияКонфликтов" id="796535ad-723f-4d7b-a701-231117bbf273"/>
+			<Metadata name="Catalog.сп_Конфигурации.TabularSection.РасширенияDEV.Attribute.ИмяПользователяХранилища" id="7afd8a71-8e79-4012-8f97-f7d920cd5e4b"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.ИмяПользователяDEV" id="7ee3a6d7-6c1a-4ce1-a2b7-1df5f6be1f73"/>
+			<Metadata name="Catalog.сп_Конфигурации.TabularSection.РасширенияDEV.Attribute.ИмяРасширения" id="8016e915-6f64-49df-a7d1-39090408ba83"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.ИмяПользователяХранилищаDEV" id="81fe3710-8507-4e8f-a21e-cdc41fdec78f"/>
+			<Metadata name="Catalog.сп_Конфигурации.TabularSection.Расширения" id="93a9af20-963a-426d-b57a-ad62d8b40fb6"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.ИмяПользователяХранилища" id="9a50f259-0450-4a16-9923-38efd9efaee7"/>
+			<Metadata name="Catalog.сп_Конфигурации.TabularSection.Расширения.Attribute.ИмяПользователяХранилища" id="ac10a65a-a34c-4e34-83ee-c71c0c5591f9"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.ПарольПользователя" id="ad49d9a4-8a5c-421e-b3a4-5a8257089a97"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.СпособПодключения" id="b2b06315-1815-4434-8745-a7ea97ef5eea"/>
+			<Metadata name="Catalog.сп_Конфигурации.TabularSection.Расширения.Attribute.ИмяРасширения" id="bd8ae786-d658-4f42-a3c5-8273eb112e52"/>
+			<Metadata name="Catalog.сп_Конфигурации.TabularSection.РасширенияDEV.Attribute.КаталогХранилища" id="d0153b43-65d3-45a9-94ec-57f706b7a1a2"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.ПарольПользователяDEV" id="d5a82351-e8bb-4b20-b4a0-04732687e74f"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.КаталогЛогФайлов" id="db2773b4-4549-4b18-95b6-26610dbee7a2"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.КаталогИнформационнойБазыDEV" id="e4eadc5a-a591-4299-a284-014ada3edc90"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.Комментарий" id="f5569173-6982-440d-b0af-398a3179a383"/>
+			<Metadata name="Catalog.сп_Конфигурации.Attribute.ПарольПользователяХранилищаDEV" id="fe9e8f06-3728-4dcd-a31a-b3814274dd15"/>
+		</Metadata>
+		<Metadata name="Catalog.сп_Конфигурации.Form.ФормаВыбора" id="a13fb6ff-a133-4bae-88e0-6f747f98a719" configVersion="39fb626b6aac08993216c4f35e9d8f55083e04d1"/>
+		<Metadata name="Catalog.сп_Конфигурации.Form.ФормаВыбора.Form" id="a13fb6ff-a133-4bae-88e0-6f747f98a719.0" configVersion="0f50af3d5acb9900ba2ae34f8b4a5d9964f72140"/>
+		<Metadata name="Catalog.сп_Конфигурации.Form.ФормаСписка" id="e8ab534c-2101-4903-9d8a-6048358a0fc4" configVersion="df12258d367e21d2655141b50fb591e6f8708f8f"/>
+		<Metadata name="Catalog.сп_Конфигурации.Form.ФормаСписка.Form" id="e8ab534c-2101-4903-9d8a-6048358a0fc4.0" configVersion="03c83c42085378abc9f4f964f8d6b8bc72b2d1df"/>
+		<Metadata name="Catalog.сп_Конфигурации.Form.ФормаЭлемента" id="2136fbe0-db65-4266-afdf-f470e5949c17" configVersion="2ebf9d5e3036afa5c5d27b7f04fca55d9840f799"/>
+		<Metadata name="Catalog.сп_Конфигурации.Form.ФормаЭлемента.Form" id="2136fbe0-db65-4266-afdf-f470e5949c17.0" configVersion="08cfb63e29afe850dd0f2adba64c01e3de49bc37"/>
+		<Metadata name="Catalog.сп_Конфигурации.Predefined" id="e07771c0-9098-4396-a44b-a7aaa2c09dcb.1c" configVersion="bfa1bbbae18b58c0ec5ed0eef7648076869fe2dd"/>
+		<Metadata name="Catalog.сп_СценарииСборки" id="bd295e59-0394-4377-a7f3-2566d8abe667" configVersion="7dcb29be79f5f163e7b7c787be78bc1d49103f0b">
+			<Metadata name="Catalog.сп_СценарииСборки.TabularSection.НаборКоманд.Attribute.Команда" id="105bfffc-c924-4498-a2dd-931ab608cb7f"/>
+			<Metadata name="Catalog.сп_СценарииСборки.TabularSection.НаборКоманд" id="3db0bead-f6d1-43e9-a179-e0a9bd650059"/>
+			<Metadata name="Catalog.сп_СценарииСборки.TabularSection.НаборКоманд.Attribute.ДляРасширения" id="96872251-4e70-47fc-ada5-49e349caab9e"/>
+			<Metadata name="Catalog.сп_СценарииСборки.Attribute.Комментарий" id="9bf65790-3e76-41e6-856e-995602344365"/>
+		</Metadata>
+		<Metadata name="Catalog.сп_СценарииСборки.Form.ФормаВыбора" id="f0570aca-019b-4335-a6da-856672320a2c" configVersion="a37338c2f5844f971c0423ec484918e8ebc82143"/>
+		<Metadata name="Catalog.сп_СценарииСборки.Form.ФормаВыбора.Form" id="f0570aca-019b-4335-a6da-856672320a2c.0" configVersion="df518f631ade32182ccb0a61bf0ef9932822feb2"/>
+		<Metadata name="Catalog.сп_СценарииСборки.Form.ФормаСписка" id="fd519137-753f-4893-9d9a-80f4c89f589c" configVersion="b16bd7f1486660ccce28db5eda25663ce251110b"/>
+		<Metadata name="Catalog.сп_СценарииСборки.Form.ФормаСписка.Form" id="fd519137-753f-4893-9d9a-80f4c89f589c.0" configVersion="b71eeee9fe1262893e1ee00e06a49beea14ae89b"/>
+		<Metadata name="Catalog.сп_СценарииСборки.Form.ФормаЭлемента" id="a4d085d5-f78e-4290-91be-ec61f7017d63" configVersion="65b2e7f1709e869403949a06e97ae1579eceed5e"/>
+		<Metadata name="Catalog.сп_СценарииСборки.Form.ФормаЭлемента.Form" id="a4d085d5-f78e-4290-91be-ec61f7017d63.0" configVersion="7bba9b4433d701d49cc683c6dce8586b6bc6a09e"/>
+		<Metadata name="Catalog.сп_СценарииСборки.ManagerModule" id="bd295e59-0394-4377-a7f3-2566d8abe667.3" configVersion="8132f87e3cdd8368baf8a71ed5cb26301a6c534d"/>
+		<Metadata name="Catalog.сп_СценарииСборки.Predefined" id="bd295e59-0394-4377-a7f3-2566d8abe667.1c" configVersion="0a802213f27e8e1eee6b99c9f4e5212cb5135f59"/>
+		<Metadata name="CommonModule.сп_ОбщегоНазначенияКлиент" id="01309723-18b3-4174-8ef7-648f90662362" configVersion="6502d67a8cfa1aaf981df57ede170fb503a7f201"/>
+		<Metadata name="CommonModule.сп_ОбщегоНазначенияКлиент.Module" id="01309723-18b3-4174-8ef7-648f90662362.0" configVersion="1597b59fe7bab41ee27e226f7ba14dba773040e1"/>
+		<Metadata name="CommonModule.сп_ОбщегоНазначенияСервер" id="d3cc90d9-4a23-4fa1-862f-b84044d53b7a" configVersion="444b0cb54798cccbcc93c0f73c82afc29fe904c1"/>
+		<Metadata name="CommonModule.сп_ОбщегоНазначенияСервер.Module" id="d3cc90d9-4a23-4fa1-862f-b84044d53b7a.0" configVersion="6dffeb80081982a32194db5ed74598a0bb5e0fc2"/>
+		<Metadata name="CommonPicture.сп_ДлительнаяОперация48" id="934d0c14-5768-4d10-a609-b69f26710b43" configVersion="b974f36f78da004cfae0a6bed93e1b3b7beae3cb"/>
+		<Metadata name="CommonPicture.сп_ДлительнаяОперация48.Picture" id="934d0c14-5768-4d10-a609-b69f26710b43.0" configVersion="f01522904dd6991aa6a4849ac0e8ff6a65d6091f"/>
+		<Metadata name="Configuration.СборщикПроектов" id="ece24288-7713-437c-ad4e-e96ded38953f" configVersion="7911c1d99fd2165851ce57d1b4dd79229e73cd2a"/>
+		<Metadata name="DataProcessor.сп_ВыполнениеСценариев" id="d74a2015-f5c4-46e4-86ad-49d456005d9e" configVersion="3153a08726932da3006ec84cfecd431534420835">
+			<Metadata name="DataProcessor.сп_ВыполнениеСценариев.TabularSection.СписокКонфликтов" id="1f3f2640-ecfd-4aee-9b0e-ec03870a053b"/>
+			<Metadata name="DataProcessor.сп_ВыполнениеСценариев.TabularSection.КомандыСценария.Attribute.Команда" id="4895bf87-b799-48f3-87b8-7e093fa7f72a"/>
+			<Metadata name="DataProcessor.сп_ВыполнениеСценариев.TabularSection.КомандыСценария.Attribute.ФактическаяКоманда" id="591f66eb-0ae0-44dd-b0a3-f3725a2fd415"/>
+			<Metadata name="DataProcessor.сп_ВыполнениеСценариев.Attribute.ЛогФайл" id="61fd56df-7bde-4e57-91d6-f986853c4a6a"/>
+			<Metadata name="DataProcessor.сп_ВыполнениеСценариев.TabularSection.СписокКонфликтов.Attribute.ПолноеИмяФайла" id="8b162f5f-6fd2-4f7f-a08a-8a0ce8271bdc"/>
+			<Metadata name="DataProcessor.сп_ВыполнениеСценариев.Attribute.Программа" id="a92e3547-8452-447e-9332-a2ac51d6751e"/>
+			<Metadata name="DataProcessor.сп_ВыполнениеСценариев.Attribute.Сценарий" id="ae8dc289-a936-43e4-8c65-7eecf2d67513"/>
+			<Metadata name="DataProcessor.сп_ВыполнениеСценариев.TabularSection.КомандыСценария" id="bac9d290-f7ac-4fac-8b5e-b955d21a2fcc"/>
+			<Metadata name="DataProcessor.сп_ВыполнениеСценариев.Attribute.Конфигурация" id="e053805b-4739-460f-a74d-f788e82ba6ee"/>
+			<Metadata name="DataProcessor.сп_ВыполнениеСценариев.Attribute.ПрерватьВыполнениеКоманд" id="ff1b071f-0d64-4b32-8de5-b5738ba951f4"/>
+		</Metadata>
+		<Metadata name="DataProcessor.сп_ВыполнениеСценариев.Form.Форма" id="8b94be7e-a481-4db7-97c5-49ddae74d55b" configVersion="92534e0a8c7d66323356efa141cfc7acb32d89a4"/>
+		<Metadata name="DataProcessor.сп_ВыполнениеСценариев.Form.Форма.Form" id="8b94be7e-a481-4db7-97c5-49ddae74d55b.0" configVersion="e5e1b0d8d5e9d681d80fd7113be12b1973213024"/>
+		<Metadata name="DataProcessor.сп_ВыполнениеСценариев.Form.ФормаРазрешенияКонфликтов" id="7e7f98b5-0aad-4744-b3bb-b62332318ea4" configVersion="50b8e53aefa4b84d18e55b88ec49d04f27b7dab0"/>
+		<Metadata name="DataProcessor.сп_ВыполнениеСценариев.Form.ФормаРазрешенияКонфликтов.Form" id="7e7f98b5-0aad-4744-b3bb-b62332318ea4.0" configVersion="296e51ff0418061aa6a11a15004bda3eb4449ef3"/>
+		<Metadata name="DataProcessor.сп_ВыполнениеСценариев.Form.ФормаЧтенияЛогФайла" id="7f6bdeed-5d98-494a-bac1-acf043457ec7" configVersion="a3543c8342ca6fd7a2e2abd4cb9d435fe439feb4"/>
+		<Metadata name="DataProcessor.сп_ВыполнениеСценариев.Form.ФормаЧтенияЛогФайла.Form" id="7f6bdeed-5d98-494a-bac1-acf043457ec7.0" configVersion="63921e18f82b200a543c78d55e7397b593f5e239"/>
+		<Metadata name="Enum.сп_СпособыПодключения" id="4013f344-aa15-4b9e-b480-c2ee0e2b7458" configVersion="58d20632e71c9f774af38207c926519924fabdd9">
+			<Metadata name="Enum.сп_СпособыПодключения.EnumValue.ПодключениеККлиентСервернойБазе" id="6d8242a4-3d6f-4294-919e-d260af9a933e"/>
+			<Metadata name="Enum.сп_СпособыПодключения.EnumValue.ПодключениеКФайловойБазе" id="fbd59e8d-6dfa-4702-b775-21605d1e9e6f"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="e549c20e-2f90-4dc1-bb8c-652d70b56850" configVersion="2f244fb49a5631af90f30836e5f061f36a63e8dd"/>
+		<Metadata name="Role.сп_ПолныеПрава" id="b0121165-884b-4f93-8b92-3e2c8293df05" configVersion="2fc4b3a2dacc0318240a5cca04f710aec9570082"/>
+		<Metadata name="Subsystem.сп_СборщикПроектов" id="0da5c089-9d08-485f-9233-8722fc4bacf0" configVersion="d51bf1e447e3db284a8b1093edb1589e3a4b2053"/>
+		<Metadata name="Subsystem.сп_СборщикПроектов.CommandInterface" id="0da5c089-9d08-485f-9233-8722fc4bacf0.1" configVersion="638e80cd622775d34bb98e4e08ffe812e95183b5"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

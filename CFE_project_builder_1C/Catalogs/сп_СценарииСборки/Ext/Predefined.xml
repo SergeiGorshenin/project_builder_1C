@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.19">
+	<Item id="f4801918-42ca-44d5-9b46-777c4a7d0099">
+		<Name>ДемоИнициализацияРепозиторияПодключениеKDiff3</Name>
+		<Code>001</Code>
+		<Description>Инициализация репозитория + Подключение KDiff3 (Демо)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bea0c631-b209-4780-967e-aa2c1a619235">
+		<Name>ДемоПодготовкаСборкиCF_CFE</Name>
+		<Code>002</Code>
+		<Description>Подготовка сборки CF и CFE (Демо)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="32c61cfe-51c8-4d55-932f-b827b9bbac38">
+		<Name>ДемоСборкаCF_CFEизDEV</Name>
+		<Code>003</Code>
+		<Description>Сборка CF и CFE из DEV (Демо)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

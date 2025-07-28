@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаВыполнитьСценарий" id="38">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.ВыполнитьСценарий</CommandName>
+				<ExtendedTooltip name="ФормаВыполнитьСценарийРасширеннаяПодсказка" id="39"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Программа" id="4">
+			<DataPath>Объект.Программа</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<InputHint>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>C:\Program Files\1cv8\common\1cestart.exe</v8:content>
+				</v8:item>
+			</InputHint>
+			<ContextMenu name="ПрограммаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ПрограммаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Конфигурация" id="63">
+			<DataPath>Объект.Конфигурация</DataPath>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонфигурацияКонтекстноеМеню" id="64"/>
+			<ExtendedTooltip name="КонфигурацияРасширеннаяПодсказка" id="65"/>
+			<Events>
+				<Event name="OnChange">КонфигурацияПриИзменении</Event>
+			</Events>
+		</InputField>
+		<UsualGroup name="ГруппаСценарий" id="58">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа сценарий</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа сценарий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСценарийРасширеннаяПодсказка" id="59"/>
+			<ChildItems>
+				<InputField name="Сценарий" id="1">
+					<DataPath>Объект.Сценарий</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СценарийКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="СценарийРасширеннаяПодсказка" id="3"/>
+					<Events>
+						<Event name="OnChange">СценарийПриИзменении</Event>
+					</Events>
+				</InputField>
+				<Button name="ОбновитьНаборКоманд" id="66">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ОбновитьНаборКоманд</CommandName>
+					<ExtendedTooltip name="ОбновитьНаборКомандРасширеннаяПодсказка" id="67"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКоманды" id="52">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команды</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команды</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="53"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаКомандыЛево" id="54">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа команды лево</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа команды лево</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКомандыЛевоРасширеннаяПодсказка" id="55"/>
+					<ChildItems>
+						<Table name="КомандыСценария" id="7">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.КомандыСценария</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="КомандыСценарияКонтекстноеМеню" id="8"/>
+							<AutoCommandBar name="КомандыСценарияКоманднаяПанель" id="9"/>
+							<ExtendedTooltip name="КомандыСценарияРасширеннаяПодсказка" id="10"/>
+							<SearchStringAddition name="КомандыСценарияСтрокаПоиска" id="11">
+								<AdditionSource>
+									<Item>КомандыСценария</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомандыСценарияСтрокаПоискаКонтекстноеМеню" id="12"/>
+								<ExtendedTooltip name="КомандыСценарияСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомандыСценарияСостояниеПросмотра" id="14">
+								<AdditionSource>
+									<Item>КомандыСценария</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомандыСценарияСостояниеПросмотраКонтекстноеМеню" id="15"/>
+								<ExtendedTooltip name="КомандыСценарияСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомандыСценарияУправлениеПоиском" id="17">
+								<AdditionSource>
+									<Item>КомандыСценария</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомандыСценарияУправлениеПоискомКонтекстноеМеню" id="18"/>
+								<ExtendedTooltip name="КомандыСценарияУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="КомандыСценарияНомерСтроки" id="20">
+									<DataPath>Объект.КомандыСценария.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>2</Width>
+									<ContextMenu name="КомандыСценарияНомерСтрокиКонтекстноеМеню" id="21"/>
+									<ExtendedTooltip name="КомандыСценарияНомерСтрокиРасширеннаяПодсказка" id="22"/>
+								</LabelField>
+								<InputField name="КомандыСценарияКоманда" id="23">
+									<DataPath>Объект.КомандыСценария.Команда</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КомандыСценарияКомандаКонтекстноеМеню" id="24"/>
+									<ExtendedTooltip name="КомандыСценарияКомандаРасширеннаяПодсказка" id="25"/>
+								</InputField>
+								<InputField name="КомандыСценарияФактическаяКоманда" id="26">
+									<DataPath>Объект.КомандыСценария.ФактическаяКоманда</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КомандыСценарияФактическаяКомандаКонтекстноеМеню" id="27"/>
+									<ExtendedTooltip name="КомандыСценарияФактическаяКомандаРасширеннаяПодсказка" id="28"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПодвал" id="78">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="79"/>
+			<ChildItems>
+				<CheckBoxField name="ПрерватьВыполнениеКоманд" id="80">
+					<DataPath>Объект.ПрерватьВыполнениеКоманд</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПрерватьВыполнениеКомандКонтекстноеМеню" id="81"/>
+					<ExtendedTooltip name="ПрерватьВыполнениеКомандРасширеннаяПодсказка" id="82"/>
+				</CheckBoxField>
+				<CommandBar name="ГруппаКоманднаяПанельПодвал" id="68">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа командная панель подвал</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа командная панель подвал</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalLocation>Right</HorizontalLocation>
+					<ExtendedTooltip name="ГруппаКоманднаяПанельПодвалРасширеннаяПодсказка" id="69"/>
+					<ChildItems>
+						<Button name="GitStatus" id="70">
+							<Type>CommandBarButton</Type>
+							<CommandName>Form.Command.GitStatus</CommandName>
+							<ExtendedTooltip name="GitStatusРасширеннаяПодсказка" id="71"/>
+						</Button>
+						<Popup name="ГруппаДополнительнительныеКомандыПодвал" id="72">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дополнительнительные команды</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дополнительнительные команды</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаДополнительнительныеКомандыПодвалРасширеннаяПодсказка" id="73"/>
+							<ChildItems>
+								<Button name="ResetHardДляDEV" id="74">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.ResetHardДляDEV</CommandName>
+									<ExtendedTooltip name="ResetHardДляDEVРасширеннаяПодсказка" id="75"/>
+								</Button>
+								<Button name="MergeDEVсMASTER" id="76">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.MergeDEVсMASTER</CommandName>
+									<ExtendedTooltip name="MergeDEVсMASTERРасширеннаяПодсказка" id="77"/>
+								</Button>
+							</ChildItems>
+						</Popup>
+					</ChildItems>
+				</CommandBar>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.сп_ВыполнениеСценариев</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Save>
+				<Field>Объект.Конфигурация</Field>
+				<Field>Объект.Программа</Field>
+				<Field>Объект.Сценарий</Field>
+			</Save>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыполнитьСценарий" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить сценарий</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить сценарий</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GenerateReport</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыполнитьСценарий</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ОбновитьНаборКоманд" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить набор команд</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить набор команд</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбновитьНаборКоманд</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="GitStatus" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>GIT STATUS</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>GIT STATUS</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Information</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>GitStatus</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ResetHardДляDEV" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>reset --hard (для DEV)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>reset --hard (для DEV)</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ResetHardДляDEV</Action>
+		</Command>
+		<Command name="MergeDEVсMASTER" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Merge DEV с MASTER</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Merge DEV с MASTER</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>MergeDEVсMASTER</Action>
+		</Command>
+	</Commands>
+</Form>
